@@ -57,4 +57,8 @@ export class FakerData {
         return faker.company.name();
     }
 
+     static food(): string {
+        return faker.food.ingredient();
+    }
+
 }
