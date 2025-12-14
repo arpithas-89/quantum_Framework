@@ -12,6 +12,7 @@ test('Merge contact', async ({ apiCreateContact, contactsLeadsPage }) => {
   const actualContactName = await contactsLeadsPage.isContactNameDisplayed();
   const actualCompanyName = await contactsLeadsPage.isCompanyNameDisplayed();
   const actualStatus = await contactsLeadsPage.isStatusDisplayed();
+  console.log(actualStatus);
 
   expect(apiCreateContact.payload.contact_name, `Contact name not displayed:${actualContactName}`).toEqual(actualContactName);
   expect(apiCreateContact.payload.company, `Company name not displayed:${actualCompanyName}`).toContain(actualCompanyName);
