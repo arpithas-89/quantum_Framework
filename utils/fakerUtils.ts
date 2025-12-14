@@ -61,4 +61,9 @@ export class FakerData {
         return faker.food.ingredient();
     }
 
+    
+     static music(): string {
+        return faker.music.artist()
+    }
+
 }
