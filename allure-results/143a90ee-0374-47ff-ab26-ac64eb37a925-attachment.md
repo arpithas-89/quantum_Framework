@@ -1,0 +1,667 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - img "logo" [ref=e5]
+    - generic [ref=e6]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: settings.php
+        - button [ref=e8]:
+          - img [ref=e9]
+      - img [ref=e14] [cursor=pointer]
+  - generic [ref=e17]:
+    - generic [ref=e19]:
+      - link "Dashboard" [ref=e20] [cursor=pointer]:
+        - /url: dashboard.php
+        - img [ref=e21]
+        - generic [ref=e26]: Dashboard
+      - link "Contacts / Leads" [ref=e27] [cursor=pointer]:
+        - /url: contacts.php
+        - img [ref=e28]
+        - generic [ref=e33]: Contacts / Leads
+      - link "API Testing" [ref=e34] [cursor=pointer]:
+        - /url: api-testing.php
+        - img [ref=e35]
+        - generic [ref=e39]: API Testing
+      - link "Query Testing" [ref=e40] [cursor=pointer]:
+        - /url: query-testing.php
+        - img [ref=e41]
+        - generic [ref=e45]: Query Testing
+      - link "Reports" [ref=e46] [cursor=pointer]:
+        - /url: reports.php
+        - img [ref=e47]
+        - generic [ref=e49]: Reports
+      - link "Settings" [ref=e50] [cursor=pointer]:
+        - /url: settings.php
+        - img [ref=e51]
+        - generic [ref=e54]: Settings
+      - link "Users" [ref=e55] [cursor=pointer]:
+        - /url: users.php
+        - img [ref=e56]
+        - generic [ref=e59]: Users
+    - main [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - heading "Contacts & Leads" [level=1] [ref=e64]
+            - paragraph [ref=e65]: Manage your contacts and track lead progress.
+          - generic [ref=e66]:
+            - link "Add New Contact" [ref=e67] [cursor=pointer]:
+              - /url: "#"
+            - button "Merge Leads" [ref=e68] [cursor=pointer]
+            - button "Export CSV" [ref=e69] [cursor=pointer]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Total Contacts
+            - heading "26" [level=3] [ref=e73]
+            - paragraph [ref=e74]: ↑ +12 this month
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Active Leads
+            - heading "5" [level=3] [ref=e77]
+            - paragraph [ref=e78]: ↑ +3 this week
+          - generic [ref=e79]:
+            - paragraph [ref=e80]: Qualified
+            - heading "0" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Ready to convert
+          - generic [ref=e83]:
+            - paragraph [ref=e84]: Pending
+            - heading "21" [level=3] [ref=e85]
+            - paragraph [ref=e86]: ↑ +5 points
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - textbox "Search by name, email, or company..." [ref=e93]
+          - combobox [ref=e94]:
+            - option "All Status" [selected]
+            - option "Active"
+            - option "Qualified"
+            - option "Pending"
+            - option "Cold"
+        - table [ref=e96]:
+          - rowgroup [ref=e97]:
+            - row "Contact Company Status Source Lead Score Last Contact Deals Total Value Created At Actions" [ref=e98]:
+              - columnheader "Contact" [ref=e99]
+              - columnheader "Company" [ref=e100]
+              - columnheader "Status" [ref=e101]
+              - columnheader "Source" [ref=e102]
+              - columnheader "Lead Score" [ref=e103]
+              - columnheader "Last Contact" [ref=e104]
+              - columnheader "Deals" [ref=e105]
+              - columnheader "Total Value" [ref=e106]
+              - columnheader "Created At" [ref=e107]
+              - columnheader "Actions" [ref=e108]
+          - rowgroup [ref=e109]:
+            - row "MM Mac mac@gmail.com test active website 2 2025-12-12 2 $2 2025-12-12 12:09:53 View Edit Delete" [ref=e110]:
+              - cell "MM Mac mac@gmail.com" [ref=e111]:
+                - generic [ref=e112]:
+                  - generic [ref=e113]: MM
+                  - generic [ref=e114]:
+                    - paragraph [ref=e115]: Mac
+                    - paragraph [ref=e116]: mac@gmail.com
+              - cell "test" [ref=e117]
+              - cell "active" [ref=e118]:
+                - generic [ref=e119]: active
+              - cell "website" [ref=e120]
+              - cell "2" [ref=e121]
+              - cell "2025-12-12" [ref=e122]
+              - cell "2" [ref=e123]
+              - cell "$2" [ref=e124]
+              - cell "2025-12-12 12:09:53" [ref=e125]
+              - cell "View Edit Delete" [ref=e126]:
+                - link "View" [ref=e127] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=190
+                  - button "View" [ref=e128]
+                - button "Edit" [ref=e129] [cursor=pointer]
+                - button "Delete" [ref=e130] [cursor=pointer]
+            - row "VV Vinoth Vasu test@gmail.com Test company pending website 4 2025-12-12 3 $0 2025-12-12 12:07:21 View Edit Delete" [ref=e131]:
+              - cell "VV Vinoth Vasu test@gmail.com" [ref=e132]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: VV
+                  - generic [ref=e135]:
+                    - paragraph [ref=e136]: Vinoth Vasu
+                    - paragraph [ref=e137]: test@gmail.com
+              - cell "Test company" [ref=e138]
+              - cell "pending" [ref=e139]:
+                - generic [ref=e140]: pending
+              - cell "website" [ref=e141]
+              - cell "4" [ref=e142]
+              - cell "2025-12-12" [ref=e143]
+              - cell "3" [ref=e144]
+              - cell "$0" [ref=e145]
+              - cell "2025-12-12 12:07:21" [ref=e146]
+              - cell "View Edit Delete" [ref=e147]:
+                - link "View" [ref=e148] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=189
+                  - button "View" [ref=e149]
+                - button "Edit" [ref=e150] [cursor=pointer]
+                - button "Delete" [ref=e151] [cursor=pointer]
+            - row "VV Vinoth Vasu the.automate.info@gmail.com Test company active social_media 2 2025-12-12 3 $3 2025-12-12 12:06:39 View Edit Delete" [ref=e152]:
+              - cell "VV Vinoth Vasu the.automate.info@gmail.com" [ref=e153]:
+                - generic [ref=e154]:
+                  - generic [ref=e155]: VV
+                  - generic [ref=e156]:
+                    - paragraph [ref=e157]: Vinoth Vasu
+                    - paragraph [ref=e158]: the.automate.info@gmail.com
+              - cell "Test company" [ref=e159]
+              - cell "active" [ref=e160]:
+                - generic [ref=e161]: active
+              - cell "social_media" [ref=e162]
+              - cell "2" [ref=e163]
+              - cell "2025-12-12" [ref=e164]
+              - cell "3" [ref=e165]
+              - cell "$3" [ref=e166]
+              - cell "2025-12-12 12:06:39" [ref=e167]
+              - cell "View Edit Delete" [ref=e168]:
+                - link "View" [ref=e169] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=188
+                  - button "View" [ref=e170]
+                - button "Edit" [ref=e171] [cursor=pointer]
+                - button "Delete" [ref=e172] [cursor=pointer]
+            - row "TA the automate test@hotmail.com Test company active website 3 2025-12-12 3 $3 2025-12-12 12:05:51 View Edit Delete" [ref=e173]:
+              - cell "TA the automate test@hotmail.com" [ref=e174]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]: TA
+                  - generic [ref=e177]:
+                    - paragraph [ref=e178]: the automate
+                    - paragraph [ref=e179]: test@hotmail.com
+              - cell "Test company" [ref=e180]
+              - cell "active" [ref=e181]:
+                - generic [ref=e182]: active
+              - cell "website" [ref=e183]
+              - cell "3" [ref=e184]
+              - cell "2025-12-12" [ref=e185]
+              - cell "3" [ref=e186]
+              - cell "$3" [ref=e187]
+              - cell "2025-12-12 12:05:51" [ref=e188]
+              - cell "View Edit Delete" [ref=e189]:
+                - link "View" [ref=e190] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=187
+                  - button "View" [ref=e191]
+                - button "Edit" [ref=e192] [cursor=pointer]
+                - button "Delete" [ref=e193] [cursor=pointer]
+            - row "TT Test test@gmail.com Test company active website 4 2025-12-11 3 $3 2025-12-12 12:05:01 View Edit Delete" [ref=e194]:
+              - cell "TT Test test@gmail.com" [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]: TT
+                  - generic [ref=e198]:
+                    - paragraph [ref=e199]: Test
+                    - paragraph [ref=e200]: test@gmail.com
+              - cell "Test company" [ref=e201]
+              - cell "active" [ref=e202]:
+                - generic [ref=e203]: active
+              - cell "website" [ref=e204]
+              - cell "4" [ref=e205]
+              - cell "2025-12-11" [ref=e206]
+              - cell "3" [ref=e207]
+              - cell "$3" [ref=e208]
+              - cell "2025-12-12 12:05:01" [ref=e209]
+              - cell "View Edit Delete" [ref=e210]:
+                - link "View" [ref=e211] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=186
+                  - button "View" [ref=e212]
+                - button "Edit" [ref=e213] [cursor=pointer]
+                - button "Delete" [ref=e214] [cursor=pointer]
+            - row "TT test test@gmail.com tested pending social_media 10 2025-12-12 20 $30 2025-12-12 11:35:23 View Edit Delete" [ref=e215]:
+              - cell "TT test test@gmail.com" [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]: TT
+                  - generic [ref=e219]:
+                    - paragraph [ref=e220]: test
+                    - paragraph [ref=e221]: test@gmail.com
+              - cell "tested" [ref=e222]
+              - cell "pending" [ref=e223]:
+                - generic [ref=e224]: pending
+              - cell "social_media" [ref=e225]
+              - cell "10" [ref=e226]
+              - cell "2025-12-12" [ref=e227]
+              - cell "20" [ref=e228]
+              - cell "$30" [ref=e229]
+              - cell "2025-12-12 11:35:23" [ref=e230]
+              - cell "View Edit Delete" [ref=e231]:
+                - link "View" [ref=e232] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=184
+                  - button "View" [ref=e233]
+                - button "Edit" [ref=e234] [cursor=pointer]
+                - button "Delete" [ref=e235] [cursor=pointer]
+            - row "LL Lonzo Arianna_Schimmel@yahoo.com Daniel Group pending website 2 2025-12-03 1 $4 2025-12-11 12:49:14 View Edit Delete" [ref=e236]:
+              - cell "LL Lonzo Arianna_Schimmel@yahoo.com" [ref=e237]:
+                - generic [ref=e238]:
+                  - generic [ref=e239]: LL
+                  - generic [ref=e240]:
+                    - paragraph [ref=e241]: Lonzo
+                    - paragraph [ref=e242]: Arianna_Schimmel@yahoo.com
+              - cell "Daniel Group" [ref=e243]
+              - cell "pending" [ref=e244]:
+                - generic [ref=e245]: pending
+              - cell "website" [ref=e246]
+              - cell "2" [ref=e247]
+              - cell "2025-12-03" [ref=e248]
+              - cell "1" [ref=e249]
+              - cell "$4" [ref=e250]
+              - cell "2025-12-11 12:49:14" [ref=e251]
+              - cell "View Edit Delete" [ref=e252]:
+                - link "View" [ref=e253] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=183
+                  - button "View" [ref=e254]
+                - button "Edit" [ref=e255] [cursor=pointer]
+                - button "Delete" [ref=e256] [cursor=pointer]
+            - row "AA Alphonso Jonathan.Kuhic38@hotmail.com Reilly, Haag and Boyle pending website 2 2025-12-03 1 $4 2025-12-11 12:45:38 View Edit Delete" [ref=e257]:
+              - cell "AA Alphonso Jonathan.Kuhic38@hotmail.com" [ref=e258]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]: AA
+                  - generic [ref=e261]:
+                    - paragraph [ref=e262]: Alphonso
+                    - paragraph [ref=e263]: Jonathan.Kuhic38@hotmail.com
+              - cell "Reilly, Haag and Boyle" [ref=e264]
+              - cell "pending" [ref=e265]:
+                - generic [ref=e266]: pending
+              - cell "website" [ref=e267]
+              - cell "2" [ref=e268]
+              - cell "2025-12-03" [ref=e269]
+              - cell "1" [ref=e270]
+              - cell "$4" [ref=e271]
+              - cell "2025-12-11 12:45:38" [ref=e272]
+              - cell "View Edit Delete" [ref=e273]:
+                - link "View" [ref=e274] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=181
+                  - button "View" [ref=e275]
+                - button "Edit" [ref=e276] [cursor=pointer]
+                - button "Delete" [ref=e277] [cursor=pointer]
+            - row "FA From The Auto-Mate jane@demo.com The Auto-Mate pending referral 90 2025-11-08 2 $25,000 2025-12-11 12:45:24 View Edit Delete" [ref=e278]:
+              - cell "FA From The Auto-Mate jane@demo.com" [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281]: FA
+                  - generic [ref=e282]:
+                    - paragraph [ref=e283]: From The Auto-Mate
+                    - paragraph [ref=e284]: jane@demo.com
+              - cell "The Auto-Mate" [ref=e285]
+              - cell "pending" [ref=e286]:
+                - generic [ref=e287]: pending
+              - cell "referral" [ref=e288]
+              - cell "90" [ref=e289]
+              - cell "2025-11-08" [ref=e290]
+              - cell "2" [ref=e291]
+              - cell "$25,000" [ref=e292]
+              - cell "2025-12-11 12:45:24" [ref=e293]
+              - cell "View Edit Delete" [ref=e294]:
+                - link "View" [ref=e295] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=180
+                  - button "View" [ref=e296]
+                - button "Edit" [ref=e297] [cursor=pointer]
+                - button "Delete" [ref=e298] [cursor=pointer]
+            - row "SS Shaina Brayan85@yahoo.com Rice - Beer pending website 2 2025-12-03 1 $4 2025-12-11 12:37:43 View Edit Delete" [ref=e299]:
+              - cell "SS Shaina Brayan85@yahoo.com" [ref=e300]:
+                - generic [ref=e301]:
+                  - generic [ref=e302]: SS
+                  - generic [ref=e303]:
+                    - paragraph [ref=e304]: Shaina
+                    - paragraph [ref=e305]: Brayan85@yahoo.com
+              - cell "Rice - Beer" [ref=e306]
+              - cell "pending" [ref=e307]:
+                - generic [ref=e308]: pending
+              - cell "website" [ref=e309]
+              - cell "2" [ref=e310]
+              - cell "2025-12-03" [ref=e311]
+              - cell "1" [ref=e312]
+              - cell "$4" [ref=e313]
+              - cell "2025-12-11 12:37:43" [ref=e314]
+              - cell "View Edit Delete" [ref=e315]:
+                - link "View" [ref=e316] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=179
+                  - button "View" [ref=e317]
+                - button "Edit" [ref=e318] [cursor=pointer]
+                - button "Delete" [ref=e319] [cursor=pointer]
+            - row "LL Liliana Maxwell_Russel@hotmail.com Koch LLC pending website 2 2025-12-03 1 $4 2025-12-11 12:34:30 View Edit Delete" [ref=e320]:
+              - cell "LL Liliana Maxwell_Russel@hotmail.com" [ref=e321]:
+                - generic [ref=e322]:
+                  - generic [ref=e323]: LL
+                  - generic [ref=e324]:
+                    - paragraph [ref=e325]: Liliana
+                    - paragraph [ref=e326]: Maxwell_Russel@hotmail.com
+              - cell "Koch LLC" [ref=e327]
+              - cell "pending" [ref=e328]:
+                - generic [ref=e329]: pending
+              - cell "website" [ref=e330]
+              - cell "2" [ref=e331]
+              - cell "2025-12-03" [ref=e332]
+              - cell "1" [ref=e333]
+              - cell "$4" [ref=e334]
+              - cell "2025-12-11 12:34:30" [ref=e335]
+              - cell "View Edit Delete" [ref=e336]:
+                - link "View" [ref=e337] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=177
+                  - button "View" [ref=e338]
+                - button "Edit" [ref=e339] [cursor=pointer]
+                - button "Delete" [ref=e340] [cursor=pointer]
+            - row "AA Antonette Aubree84@hotmail.com Senger, Turcotte and Toy pending website 2 2025-12-03 1 $4 2025-12-11 12:33:46 View Edit Delete" [ref=e341]:
+              - cell "AA Antonette Aubree84@hotmail.com" [ref=e342]:
+                - generic [ref=e343]:
+                  - generic [ref=e344]: AA
+                  - generic [ref=e345]:
+                    - paragraph [ref=e346]: Antonette
+                    - paragraph [ref=e347]: Aubree84@hotmail.com
+              - cell "Senger, Turcotte and Toy" [ref=e348]
+              - cell "pending" [ref=e349]:
+                - generic [ref=e350]: pending
+              - cell "website" [ref=e351]
+              - cell "2" [ref=e352]
+              - cell "2025-12-03" [ref=e353]
+              - cell "1" [ref=e354]
+              - cell "$4" [ref=e355]
+              - cell "2025-12-11 12:33:46" [ref=e356]
+              - cell "View Edit Delete" [ref=e357]:
+                - link "View" [ref=e358] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=176
+                  - button "View" [ref=e359]
+                - button "Edit" [ref=e360] [cursor=pointer]
+                - button "Delete" [ref=e361] [cursor=pointer]
+            - row "WW Winifred Eula.Lynch11@gmail.com Williamson and Sons pending website 2 2025-12-03 1 $4 2025-12-11 12:33:00 View Edit Delete" [ref=e362]:
+              - cell "WW Winifred Eula.Lynch11@gmail.com" [ref=e363]:
+                - generic [ref=e364]:
+                  - generic [ref=e365]: WW
+                  - generic [ref=e366]:
+                    - paragraph [ref=e367]: Winifred
+                    - paragraph [ref=e368]: Eula.Lynch11@gmail.com
+              - cell "Williamson and Sons" [ref=e369]
+              - cell "pending" [ref=e370]:
+                - generic [ref=e371]: pending
+              - cell "website" [ref=e372]
+              - cell "2" [ref=e373]
+              - cell "2025-12-03" [ref=e374]
+              - cell "1" [ref=e375]
+              - cell "$4" [ref=e376]
+              - cell "2025-12-11 12:33:00" [ref=e377]
+              - cell "View Edit Delete" [ref=e378]:
+                - link "View" [ref=e379] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=175
+                  - button "View" [ref=e380]
+                - button "Edit" [ref=e381] [cursor=pointer]
+                - button "Delete" [ref=e382] [cursor=pointer]
+            - row "KK Kaitlin Anika_Gulgowski33@yahoo.com Schowalter, Fritsch and Herman pending website 2 2025-12-03 1 $4 2025-12-11 12:31:04 View Edit Delete" [ref=e383]:
+              - cell "KK Kaitlin Anika_Gulgowski33@yahoo.com" [ref=e384]:
+                - generic [ref=e385]:
+                  - generic [ref=e386]: KK
+                  - generic [ref=e387]:
+                    - paragraph [ref=e388]: Kaitlin
+                    - paragraph [ref=e389]: Anika_Gulgowski33@yahoo.com
+              - cell "Schowalter, Fritsch and Herman" [ref=e390]
+              - cell "pending" [ref=e391]:
+                - generic [ref=e392]: pending
+              - cell "website" [ref=e393]
+              - cell "2" [ref=e394]
+              - cell "2025-12-03" [ref=e395]
+              - cell "1" [ref=e396]
+              - cell "$4" [ref=e397]
+              - cell "2025-12-11 12:31:04" [ref=e398]
+              - cell "View Edit Delete" [ref=e399]:
+                - link "View" [ref=e400] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=174
+                  - button "View" [ref=e401]
+                - button "Edit" [ref=e402] [cursor=pointer]
+                - button "Delete" [ref=e403] [cursor=pointer]
+            - row "SS sdf dfsdfdf5@gmail.com aad active email_campaign 1 2025-12-25 1 $1 2025-12-11 12:10:33 View Edit Delete" [ref=e404]:
+              - cell "SS sdf dfsdfdf5@gmail.com" [ref=e405]:
+                - generic [ref=e406]:
+                  - generic [ref=e407]: SS
+                  - generic [ref=e408]:
+                    - paragraph [ref=e409]: sdf
+                    - paragraph [ref=e410]: dfsdfdf5@gmail.com
+              - cell "aad" [ref=e411]
+              - cell "active" [ref=e412]:
+                - generic [ref=e413]: active
+              - cell "email_campaign" [ref=e414]
+              - cell "1" [ref=e415]
+              - cell "2025-12-25" [ref=e416]
+              - cell "1" [ref=e417]
+              - cell "$1" [ref=e418]
+              - cell "2025-12-11 12:10:33" [ref=e419]
+              - cell "View Edit Delete" [ref=e420]:
+                - link "View" [ref=e421] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=173
+                  - button "View" [ref=e422]
+                - button "Edit" [ref=e423] [cursor=pointer]
+                - button "Delete" [ref=e424] [cursor=pointer]
+            - row "DD Deron Keegan_Fritsch46@yahoo.com Raynor - McLaughlin pending website 2 2025-12-03 1 $4 2025-12-11 12:09:47 View Edit Delete" [ref=e425]:
+              - cell "DD Deron Keegan_Fritsch46@yahoo.com" [ref=e426]:
+                - generic [ref=e427]:
+                  - generic [ref=e428]: DD
+                  - generic [ref=e429]:
+                    - paragraph [ref=e430]: Deron
+                    - paragraph [ref=e431]: Keegan_Fritsch46@yahoo.com
+              - cell "Raynor - McLaughlin" [ref=e432]
+              - cell "pending" [ref=e433]:
+                - generic [ref=e434]: pending
+              - cell "website" [ref=e435]
+              - cell "2" [ref=e436]
+              - cell "2025-12-03" [ref=e437]
+              - cell "1" [ref=e438]
+              - cell "$4" [ref=e439]
+              - cell "2025-12-11 12:09:47" [ref=e440]
+              - cell "View Edit Delete" [ref=e441]:
+                - link "View" [ref=e442] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=172
+                  - button "View" [ref=e443]
+                - button "Edit" [ref=e444] [cursor=pointer]
+                - button "Delete" [ref=e445] [cursor=pointer]
+            - row "AA Anabelle Devonte67@gmail.com Borer and Sons pending website 2 2025-12-03 1 $4 2025-12-11 12:07:24 View Edit Delete" [ref=e446]:
+              - cell "AA Anabelle Devonte67@gmail.com" [ref=e447]:
+                - generic [ref=e448]:
+                  - generic [ref=e449]: AA
+                  - generic [ref=e450]:
+                    - paragraph [ref=e451]: Anabelle
+                    - paragraph [ref=e452]: Devonte67@gmail.com
+              - cell "Borer and Sons" [ref=e453]
+              - cell "pending" [ref=e454]:
+                - generic [ref=e455]: pending
+              - cell "website" [ref=e456]
+              - cell "2" [ref=e457]
+              - cell "2025-12-03" [ref=e458]
+              - cell "1" [ref=e459]
+              - cell "$4" [ref=e460]
+              - cell "2025-12-11 12:07:24" [ref=e461]
+              - cell "View Edit Delete" [ref=e462]:
+                - link "View" [ref=e463] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=171
+                  - button "View" [ref=e464]
+                - button "Edit" [ref=e465] [cursor=pointer]
+                - button "Delete" [ref=e466] [cursor=pointer]
+            - row "RR Rex Lionel_Robel91@yahoo.com Fisher - Willms pending website 2 2025-12-03 1 $4 2025-12-11 12:05:08 View Edit Delete" [ref=e467]:
+              - cell "RR Rex Lionel_Robel91@yahoo.com" [ref=e468]:
+                - generic [ref=e469]:
+                  - generic [ref=e470]: RR
+                  - generic [ref=e471]:
+                    - paragraph [ref=e472]: Rex
+                    - paragraph [ref=e473]: Lionel_Robel91@yahoo.com
+              - cell "Fisher - Willms" [ref=e474]
+              - cell "pending" [ref=e475]:
+                - generic [ref=e476]: pending
+              - cell "website" [ref=e477]
+              - cell "2" [ref=e478]
+              - cell "2025-12-03" [ref=e479]
+              - cell "1" [ref=e480]
+              - cell "$4" [ref=e481]
+              - cell "2025-12-11 12:05:08" [ref=e482]
+              - cell "View Edit Delete" [ref=e483]:
+                - link "View" [ref=e484] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=170
+                  - button "View" [ref=e485]
+                - button "Edit" [ref=e486] [cursor=pointer]
+                - button "Delete" [ref=e487] [cursor=pointer]
+            - row "RR Ryann Adan.Fritsch@gmail.com Dare, Wiza and Williamson pending website 2 2025-12-03 1 $4 2025-12-11 12:03:39 View Edit Delete" [ref=e488]:
+              - cell "RR Ryann Adan.Fritsch@gmail.com" [ref=e489]:
+                - generic [ref=e490]:
+                  - generic [ref=e491]: RR
+                  - generic [ref=e492]:
+                    - paragraph [ref=e493]: Ryann
+                    - paragraph [ref=e494]: Adan.Fritsch@gmail.com
+              - cell "Dare, Wiza and Williamson" [ref=e495]
+              - cell "pending" [ref=e496]:
+                - generic [ref=e497]: pending
+              - cell "website" [ref=e498]
+              - cell "2" [ref=e499]
+              - cell "2025-12-03" [ref=e500]
+              - cell "1" [ref=e501]
+              - cell "$4" [ref=e502]
+              - cell "2025-12-11 12:03:39" [ref=e503]
+              - cell "View Edit Delete" [ref=e504]:
+                - link "View" [ref=e505] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=169
+                  - button "View" [ref=e506]
+                - button "Edit" [ref=e507] [cursor=pointer]
+                - button "Delete" [ref=e508] [cursor=pointer]
+            - row "OO Onie Maverick51@yahoo.com Friesen, Grady and Mayert pending website 2 2025-12-03 1 $4 2025-12-11 12:01:38 View Edit Delete" [ref=e509]:
+              - cell "OO Onie Maverick51@yahoo.com" [ref=e510]:
+                - generic [ref=e511]:
+                  - generic [ref=e512]: OO
+                  - generic [ref=e513]:
+                    - paragraph [ref=e514]: Onie
+                    - paragraph [ref=e515]: Maverick51@yahoo.com
+              - cell "Friesen, Grady and Mayert" [ref=e516]
+              - cell "pending" [ref=e517]:
+                - generic [ref=e518]: pending
+              - cell "website" [ref=e519]
+              - cell "2" [ref=e520]
+              - cell "2025-12-03" [ref=e521]
+              - cell "1" [ref=e522]
+              - cell "$4" [ref=e523]
+              - cell "2025-12-11 12:01:38" [ref=e524]
+              - cell "View Edit Delete" [ref=e525]:
+                - link "View" [ref=e526] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=168
+                  - button "View" [ref=e527]
+                - button "Edit" [ref=e528] [cursor=pointer]
+                - button "Delete" [ref=e529] [cursor=pointer]
+            - row "TT Tavares Isabel.Mertz30@hotmail.com Sporer and Sons pending website 2 2025-12-03 1 $4 2025-12-11 11:58:52 View Edit Delete" [ref=e530]:
+              - cell "TT Tavares Isabel.Mertz30@hotmail.com" [ref=e531]:
+                - generic [ref=e532]:
+                  - generic [ref=e533]: TT
+                  - generic [ref=e534]:
+                    - paragraph [ref=e535]: Tavares
+                    - paragraph [ref=e536]: Isabel.Mertz30@hotmail.com
+              - cell "Sporer and Sons" [ref=e537]
+              - cell "pending" [ref=e538]:
+                - generic [ref=e539]: pending
+              - cell "website" [ref=e540]
+              - cell "2" [ref=e541]
+              - cell "2025-12-03" [ref=e542]
+              - cell "1" [ref=e543]
+              - cell "$4" [ref=e544]
+              - cell "2025-12-11 11:58:52" [ref=e545]
+              - cell "View Edit Delete" [ref=e546]:
+                - link "View" [ref=e547] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=167
+                  - button "View" [ref=e548]
+                - button "Edit" [ref=e549] [cursor=pointer]
+                - button "Delete" [ref=e550] [cursor=pointer]
+            - row "TT Terrence Darren.Barton-Rolfson59@yahoo.com Howe LLC pending website 2 2025-12-03 1 $4 2025-12-11 11:49:42 View Edit Delete" [ref=e551]:
+              - cell "TT Terrence Darren.Barton-Rolfson59@yahoo.com" [ref=e552]:
+                - generic [ref=e553]:
+                  - generic [ref=e554]: TT
+                  - generic [ref=e555]:
+                    - paragraph [ref=e556]: Terrence
+                    - paragraph [ref=e557]: Darren.Barton-Rolfson59@yahoo.com
+              - cell "Howe LLC" [ref=e558]
+              - cell "pending" [ref=e559]:
+                - generic [ref=e560]: pending
+              - cell "website" [ref=e561]
+              - cell "2" [ref=e562]
+              - cell "2025-12-03" [ref=e563]
+              - cell "1" [ref=e564]
+              - cell "$4" [ref=e565]
+              - cell "2025-12-11 11:49:42" [ref=e566]
+              - cell "View Edit Delete" [ref=e567]:
+                - link "View" [ref=e568] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=166
+                  - button "View" [ref=e569]
+                - button "Edit" [ref=e570] [cursor=pointer]
+                - button "Delete" [ref=e571] [cursor=pointer]
+            - row "FF Frederique Genoveva.Rippin@gmail.com Smith LLC pending website 2 2025-12-03 1 $4 2025-12-11 11:47:45 View Edit Delete" [ref=e572]:
+              - cell "FF Frederique Genoveva.Rippin@gmail.com" [ref=e573]:
+                - generic [ref=e574]:
+                  - generic [ref=e575]: FF
+                  - generic [ref=e576]:
+                    - paragraph [ref=e577]: Frederique
+                    - paragraph [ref=e578]: Genoveva.Rippin@gmail.com
+              - cell "Smith LLC" [ref=e579]
+              - cell "pending" [ref=e580]:
+                - generic [ref=e581]: pending
+              - cell "website" [ref=e582]
+              - cell "2" [ref=e583]
+              - cell "2025-12-03" [ref=e584]
+              - cell "1" [ref=e585]
+              - cell "$4" [ref=e586]
+              - cell "2025-12-11 11:47:45" [ref=e587]
+              - cell "View Edit Delete" [ref=e588]:
+                - link "View" [ref=e589] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=165
+                  - button "View" [ref=e590]
+                - button "Edit" [ref=e591] [cursor=pointer]
+                - button "Delete" [ref=e592] [cursor=pointer]
+            - row "KK Kenneth River57@yahoo.com Wilderman - Lehner pending website 2 2025-12-03 1 $4 2025-12-11 11:45:57 View Edit Delete" [ref=e593]:
+              - cell "KK Kenneth River57@yahoo.com" [ref=e594]:
+                - generic [ref=e595]:
+                  - generic [ref=e596]: KK
+                  - generic [ref=e597]:
+                    - paragraph [ref=e598]: Kenneth
+                    - paragraph [ref=e599]: River57@yahoo.com
+              - cell "Wilderman - Lehner" [ref=e600]
+              - cell "pending" [ref=e601]:
+                - generic [ref=e602]: pending
+              - cell "website" [ref=e603]
+              - cell "2" [ref=e604]
+              - cell "2025-12-03" [ref=e605]
+              - cell "1" [ref=e606]
+              - cell "$4" [ref=e607]
+              - cell "2025-12-11 11:45:57" [ref=e608]
+              - cell "View Edit Delete" [ref=e609]:
+                - link "View" [ref=e610] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=164
+                  - button "View" [ref=e611]
+                - button "Edit" [ref=e612] [cursor=pointer]
+                - button "Delete" [ref=e613] [cursor=pointer]
+            - row "LL Ladarius Jakob.Grady@yahoo.com Olson Inc pending website 2 2025-12-03 1 $4 2025-12-11 11:34:10 View Edit Delete" [ref=e614]:
+              - cell "LL Ladarius Jakob.Grady@yahoo.com" [ref=e615]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]: LL
+                  - generic [ref=e618]:
+                    - paragraph [ref=e619]: Ladarius
+                    - paragraph [ref=e620]: Jakob.Grady@yahoo.com
+              - cell "Olson Inc" [ref=e621]
+              - cell "pending" [ref=e622]:
+                - generic [ref=e623]: pending
+              - cell "website" [ref=e624]
+              - cell "2" [ref=e625]
+              - cell "2025-12-03" [ref=e626]
+              - cell "1" [ref=e627]
+              - cell "$4" [ref=e628]
+              - cell "2025-12-11 11:34:10" [ref=e629]
+              - cell "View Edit Delete" [ref=e630]:
+                - link "View" [ref=e631] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=163
+                  - button "View" [ref=e632]
+                - button "Edit" [ref=e633] [cursor=pointer]
+                - button "Delete" [ref=e634] [cursor=pointer]
+            - row "AA Automate jane@demo.com TechGrow pending 0 2025-12-03 29 $275,028 2025-12-11 12:49:12 View Edit Delete" [ref=e635]:
+              - cell "AA Automate jane@demo.com" [ref=e636]:
+                - generic [ref=e637]:
+                  - generic [ref=e638]: AA
+                  - generic [ref=e639]:
+                    - paragraph [ref=e640]: Automate
+                    - paragraph [ref=e641]: jane@demo.com
+              - cell "TechGrow" [ref=e642]
+              - cell "pending" [ref=e643]:
+                - generic [ref=e644]: pending
+              - cell [ref=e645]
+              - cell "0" [ref=e646]
+              - cell "2025-12-03" [ref=e647]
+              - cell "29" [ref=e648]
+              - cell "$275,028" [ref=e649]
+              - cell "2025-12-11 12:49:12" [ref=e650]
+              - cell "View Edit Delete" [ref=e651]:
+                - link "View" [ref=e652] [cursor=pointer]:
+                  - /url: viewcontacts.php?id=87
+                  - button "View" [ref=e653]
+                - button "Edit" [ref=e654] [cursor=pointer]
+                - button "Delete" [ref=e655] [cursor=pointer]
+```
