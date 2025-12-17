@@ -104,7 +104,7 @@ export class AddContactDetailsPage extends BrowserInteractionsImpl {
     }
 
     async enterNotes(value: string): Promise<void> {
-        await this.type(this.notes, value, 'Notes');
+        await this.type(this.notes, value, 'Notes 123');
     }
 
     async clickAddButton(): Promise<ContactLeadsPage> {

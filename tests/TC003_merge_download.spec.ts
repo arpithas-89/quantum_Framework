@@ -25,7 +25,7 @@ test.describe("Verifying the Features in Contacts Leads Page", async () => {
         //await page.pause();
     });
 
-    test.only('Download a File', async ({ contactsLeadsPage }) => {
+    test('Download a File', async ({ contactsLeadsPage }) => {
         test.info().annotations.push(
             { type: 'Author', description: 'Arpitha' },
             { type: 'TestCase', description: 'Download a File' },
